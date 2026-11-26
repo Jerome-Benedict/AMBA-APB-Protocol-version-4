@@ -1,0 +1,28 @@
+// `ifndef APB_PKG_SV
+// `define APB_PKG_SV
+
+package apb_package;
+
+`include "uvm_macros.svh"
+import uvm_pkg::*;
+
+`include "apb_agent_config.sv"
+`include "apb_slave_agent_config.sv"
+`include "apb_env_config.sv"
+
+`include "apb_seq_item.sv"
+`include "apb_sequence.sv"
+`include "apb_master_sequencer.sv"
+`include "apb_master_driver.sv"
+`include "apb_master_monitor.sv"
+`include "apb_master_agent.sv"
+`include "apb_slave_monitor.sv"
+`include "apb_slave_agent.sv"
+`include "apb_sb.sv"
+`include "apb_coverage.sv"
+`include "apb_env.sv"
+`include "apb_test.sv"
+
+endpackage
+
+// `endif
